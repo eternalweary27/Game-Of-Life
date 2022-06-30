@@ -231,13 +231,7 @@ class Game:
                     pause_btn_clicked = self.pause_btn.checkClicked(mouse_pos,mouse_pressed)
                     speedup_btn_clicked = self.speedup_btn.checkClicked(mouse_pos,mouse_pressed)
                     slowdown_btn_clicked = self.slowdown_btn.checkClicked(mouse_pos,mouse_pressed)
-            
-
-            # uniques = []
-            # for item in self.board.live_cells:
-            #     if item not in uniques:
-            #         uniques.append(item)
-            # self.board.live_cells = uniques
+           
 
             self.drawGrid()
             self.pause_btn.draw()
